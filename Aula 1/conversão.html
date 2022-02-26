@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css"/>
+    <title>Conversão</title>
+</head>
+    <body>
+        <div class="fundo">
+            <h1 id="titulo">Conversor de Temperatura</h1>
+            <div id="enfeite">
+                <div id="conversor">
+                    <h2 id="etiqueta">Digite o valor da Temperatura</h2>
+                    <input type="text" id="input" placeholder="Digite aqui" value="" />
+                    <select name="temp" id="temp" value="">
+                        <option value="start">Escolha a Temperatura</option>
+                        <option value="C">°C</option>
+                        <option value="F">°F</option>
+                        <option value="K">K</option>
+                        <option value="R">°R</option>
+                    </select>
+                </div>
+
+                <div id="butons">
+                    <button id="calcular">Converter</button>
+                    <button id="reset">Resetar</button>
+                </div>
+                <div id="exibidor">
+                    <h3>Resultados:</h3>
+                    <div id="resultado">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="conversão.js"></script>
+    </body>
+</html>

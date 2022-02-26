@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    color:#FFF;
+}
+.fundo{
+    background-image: linear-gradient(45deg,black,blue);
+    height: 100vh;
+}
+#titulo{
+    text-align: center;
+}
+#enfeite{
+    position: absolute;
+    background-color: rgb(8, 29, 70);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 3vh 3vw 3vh 3vw;
+    margin-top: 2vh;
+}
+#conversor{
+    background-color: rgb(8, 29, 70);
+    padding: 2vh;
+}
+#etiqueta{
+    margin-bottom: 1vh;
+    font-size: 17px;
+}
+#input{
+    background-color: #FFF;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 5vh;
+    width: 9.5vw;
+    color: black;
+    padding-left: 0.4vw;
+}
+select{
+    color: black;
+    height: 5vh;
+    width: 19.7vw;
+    border-radius: 5px;
+}
+select option{
+    color: black;
+}
+#butons{
+    padding-left: 2vw;
+}
+button{
+    background-color: rgb(47, 66, 105);
+    border-style: inset;
+    height: 3vh;
+    font-size: 14px;
+    align-self: center;
+    padding: 0 0.5vw 0 0.5vw;
+    width: 14.5vw;
+}
+button:hover{
+    background-color:rgb(212, 218, 230);
+    color:black;
+}
+#exibidor{
+    background-color: white;
+    width: 29.7vw;
+    height: 25vh;
+    border-radius: 5px;
+    margin: 3vh 2vw 2vh 2vw;
+    color: black;
+
+}
+h3{
+    color: black;
+    padding: 1vh 0 0 1vw;
+}
+p{
+    color: black;
+    padding-left: 2vw;
+}
+
